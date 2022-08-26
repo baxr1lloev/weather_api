@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background: #20135C
+}
+
+.container {
+    width: 200px;
+    margin: 200px auto;
+    /* position: fixed;
+    top: 300px;
+    left: 200px; */
+    border: transparent;
+    height: 340px;
+    background: linear-gradient(0.32deg, rgba(28, 35, 64, 0) -5.79%, #1C0F54 114.59%);
+    filter: drop-shadow(0px -5px 25px rgba(0, 3, 32, 0.5));
+    border-radius: 8px 0px 0px 8px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.hr1 {
+    width: 130px;
+    position: relative;
+    left: 34px;
+    top: 30px;
+    border: 1px solid #c4c4c4;
+}
+
+.price {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    font-size: 28px;
+}
+
+.disclaimer {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    position: relative;
+}
+
+.hr2 {
+    width: 130px;
+    position: relative;
+    left: 34px;
+    top: 80px;
+    border: 1px solid #c4c4c4;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.go {
+    position: relative;
+    top: 140px;
+    width: 50px;
+    left: 75px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+}
